@@ -1,0 +1,209 @@
+
+
+.mainclass{
+    -webkit-text-size-adjust: 100%;
+    --parent-width: 1440px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 100%;
+    font-family: inherit;
+    font-style: normal!important;
+    position: relative;
+    line-height: 1.45;
+    padding: 65px 0;
+    color: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-image: url("//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1/photo-1456078003870-929d5986f0f5_atw7oi.jpg");
+
+}
+
+.fname{
+    -webkit-text-size-adjust: 100%;
+    --parent-width: 1440px;
+    list-style: none;
+    text-align: center;
+    color: #090e0e;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: 36px;
+    -webkit-user-modify: read-write;
+    -webkit-line-break: after-white-space;
+    -webkit-font-smoothing: antialiased;
+    cursor: text;
+    word-wrap: break-word;
+    line-height: 1.2;
+    font-family: montserrat, helvetica, sans-serif;
+    outline: 0px;
+
+}
+
+.sname{
+    -webkit-text-size-adjust: 100%;
+    --parent-width: 1440px;
+    list-style: none;
+    text-align: center;
+    color: #071615;
+    cursor: text;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style: normal;
+    font-size: 100%;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.45;
+}
+.fbutton{
+   
+    -webkit-text-size-adjust: 100%;
+    --parent-width: 1440px;
+    list-style: none;
+    border: 0;
+    font-style: normal;
+    text-decoration: none;
+    word-break: break-word;
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    border-radius: 3px;
+    line-height: 1.45;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    margin: unset;
+    background: #8d77ad;
+    background-image: linear-gradient(180deg,#8d77ad,#8671a5);
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 18px;
+    font-family: roboto, helvetica, sans-serif;
+}
+.description{
+    -webkit-font-smoothing: antialiased;
+    color: #202124;
+    text-size-adjust: 100%;
+    font-family: "Hind",sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.headerbtn{
+    
+}
+.viewall{
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    font-family: "Hind",sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid;
+    font-weight: 800;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    color: #ddaa44;
+    border-color: #ddaa44;
+    
+}
+
+.menu{
+    -webkit-font-smoothing: antialiased;
+    color: #202124;
+    text-size-adjust: 100%;
+    font-family: "Hind",sans-serif;
+    line-height: 1.5em;
+    list-style-type: none;
+    -webkit-tap-highlight-color: transparent;
+    font-weight: bold;
+    margin: 0;
+    padding: 24px 15px;
+    text-align: center;
+}
+.maincourse{
+    -webkit-font-smoothing: antialiased;
+    color: #202124;
+    text-size-adjust: 100%;
+    font-family: "Hind",sans-serif;
+    line-height: 1.5em;
+    list-style-type: none;
+    -webkit-tap-highlight-color: transparent;
+    font-weight: bold;
+    margin: 0;
+    padding: 24px 15px;
+    text-align: center;
+}
+.description{
+    -webkit-font-smoothing: antialiased;
+    color: #202124;
+    text-size-adjust: 100%;
+    font-family: "Hind",sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    -webkit-tap-highlight-color: transparent;
+    padding: 18px;
+}   
+.signup{
+    -webkit-text-size-adjust: 100%;
+    --parent-width: 1440px;
+    list-style: none;
+    text-align: center;
+    color: #021013;
+    cursor: text;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style: normal;
+    font-size: 100%;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.45;
+}
+.bcimage{
+   
+} 
+.review1{
+    -webkit-text-size-adjust: 100%;
+    --parent-width: 1440px;
+    list-style: none;
+    text-align: center;
+    color: #e0c73a;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: 20px;
+    
+    -webkit-font-smoothing: antialiased;
+    cursor: text;
+    word-wrap: break-word;
+    line-height: 1.2;
+    font-family: montserrat, helvetica, sans-serif;
+    outline: 0px;
+}
+.map{
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    font-family: "Hind",sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #1967d2;
+    -webkit-tap-highlight-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 56%;
+    width: 100%;
+
+}
+.contact{
+    
+}
