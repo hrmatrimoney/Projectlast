@@ -42,21 +42,7 @@
 }
 
 .sname{
-    -webkit-text-size-adjust: 100%;
-    --parent-width: 1440px;
-    list-style: none;
-    text-align: center;
-    color: #071615;
-    cursor: text;
-    word-wrap: break-word;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-style: normal;
-    font-size: 100%;
-    font-family: inherit;
-    font-weight: 600;
-    line-height: 1.45;
+    
 }
 .fbutton{
    
@@ -112,37 +98,44 @@
     font-weight: 800;
     padding-bottom: 8px;
     text-transform: uppercase;
-    color: #ddaa44;
-    border-color: #ddaa44;
+    color: #131211;
+   
     
 }
 
 .menu{
     -webkit-font-smoothing: antialiased;
-    color: #202124;
     text-size-adjust: 100%;
     font-family: "Hind",sans-serif;
     line-height: 1.5em;
-    list-style-type: none;
-    -webkit-tap-highlight-color: transparent;
-    font-weight: bold;
-    margin: 0;
-    padding: 24px 15px;
     text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+   
+    border-bottom: 1px solid;
+    font-weight: 800;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    color:  #ddaa44;
+    border-color:#021013;
 }
 .maincourse{
     -webkit-font-smoothing: antialiased;
-    color: #202124;
     text-size-adjust: 100%;
     font-family: "Hind",sans-serif;
     line-height: 1.5em;
-    list-style-type: none;
-    -webkit-tap-highlight-color: transparent;
-    font-weight: bold;
-    margin: 0;
-    padding: 24px 15px;
     text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+   
+    border-bottom: 1px solid;
+    font-weight: 800;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    color:  #ddaa44;
+    border-color:#021013;
 }
+
 .description{
     -webkit-font-smoothing: antialiased;
     color: #202124;

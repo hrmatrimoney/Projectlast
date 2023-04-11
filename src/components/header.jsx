@@ -21,29 +21,26 @@ function classNames(...classes) {
 export default function Header() {
   return (
     <div className="lg:flex lg:items-center lg:justify-between">
-      <div className="min-w-0 flex-1">
-        <h2 className="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
-        <p>  Food Hut Corner
-        </p>
-        </h2>
+     <div className="min-w-0 flex-1">
+        
         
         <a className='headerbtn'>   
         <div className="mt-1 flex flex-col sm:mt-0 sm:flex-row sm:flex-wrap sm:space-x-6">
          
-         <a  href='#' className='fixed'> <div className="mt-2 flex items-center text-sm text-gray-500">
-            <ListBulletIcon className="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
-            <a ><button> View Menu </button></a>
+         <a  href='#' > <div className="mt-2 flex items-center text-sm text-gray-500">
+ <ListBulletIcon className="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
+            <a className='viewmenu'><button> View Menu </button></a>
           </div></a>                        
-          <a className='fixed'>
+          <a >
           <div className="mt-2 flex items-center text-sm text-gray-500">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<MapPinIcon className="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
-            <a><button> Get Direction </button></a>
+          &nbsp;&nbsp;<MapPinIcon className="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
+            <a className='viewmenu'><button> Get Direction </button></a>
           </div> </a> 
-          <a className='fixed'>
+          <a >
           <div className="mt-2 flex items-center text-sm text-gray-500">
-          &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+           &nbsp; &nbsp;
            <PhoneIcon className="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
-            <a><button> Call Now </button></a>
+            <a className='viewmenu'><button> Call Now </button></a>
           </div></a>
           
         </div> </a>
