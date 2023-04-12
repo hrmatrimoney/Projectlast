@@ -33,7 +33,19 @@ BAKERY<br></br> & <br></br>CAFE
         <br></br>
         <br></br>
         <br></br>
-        <br></br> <br></br> <br></br>
+        <br></br> <br></br> <br></br> <br></br><br></br>
+        <br></br>
+        <br></br>
+        <br></br> <br></br><br></br>
+        <br></br>
+        <br></br>
+        <br></br> <br></br><br></br>
+        <br></br>
+        <br></br>
+        <br></br> <br></br><br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       <p className='sname'><h2>Best Restaurants in Chandigarh for dinner
 Open today until 11:00 PM</h2></p><br></br>
       <p>
