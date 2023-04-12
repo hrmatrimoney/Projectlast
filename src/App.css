@@ -17,7 +17,7 @@
     background-size: cover;
     background-color: transparent;
     background-position: 50% 50%;
-    background-image: url("//custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/1/photo-1456078003870-929d5986f0f5_atw7oi.jpg");
+    background-image: url("https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?cs=srgb&dl=pexels-pixabay-262978.jpg&fm=jpg");
 
 }
 
@@ -26,12 +26,11 @@
     --parent-width: 1440px;
     list-style: none;
     text-align: center;
-    color: #090e0e;
+    color: #080909;
     font-style: normal;
     font-weight: inherit;
-    font-size: 36px;
+    font-size: 60px;
     -webkit-user-modify: read-write;
-    -webkit-line-break: after-white-space;
     -webkit-font-smoothing: antialiased;
     cursor: text;
     word-wrap: break-word;
@@ -42,7 +41,17 @@
 }
 
 .sname{
-    
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    font-family: "Hind",sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+   
+    font-weight: 800;
+    padding-bottom: 10px;
+    color: #0d0e0e;
+   
 }
 .fbutton{
    
@@ -82,9 +91,7 @@
     text-overflow: ellipsis;
 }
 
-.headerbtn{
-    
-}
+
 .viewall{
     -webkit-font-smoothing: antialiased;
     text-size-adjust: 100%;
@@ -127,13 +134,10 @@
     text-align: center;
     -webkit-tap-highlight-color: transparent;
     text-decoration: none;
-   
-    border-bottom: 1px solid;
     font-weight: 800;
     padding-bottom: 8px;
     text-transform: uppercase;
     color:  #ddaa44;
-    border-color:#021013;
 }
 
 .description{
@@ -163,9 +167,7 @@
     font-weight: 300;
     line-height: 1.45;
 }
-.bcimage{
-   
-} 
+
 .review1{
     -webkit-text-size-adjust: 100%;
     --parent-width: 1440px;
@@ -197,6 +199,4 @@
     width: 100%;
 
 }
-.contact{
-    
-}
+

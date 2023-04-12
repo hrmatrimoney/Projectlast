@@ -20,13 +20,13 @@
     -webkit-font-smoothing: antialiased;
     text-size-adjust: 100%;
     font-family: "Hind",sans-serif;
-    line-height: 1.5em;
+    line-height: 2.5em;
     text-align: center;
     -webkit-tap-highlight-color: transparent;
     text-decoration: none;
     cursor: pointer;
     border-bottom: 1px solid;
-    font-weight: 800;
+    font-weight: 1000;
     padding-bottom: 8px;
     text-transform: uppercase;
     color: #ddaa44;
