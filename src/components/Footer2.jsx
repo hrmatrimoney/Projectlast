@@ -1,5 +1,6 @@
-
-export default function Footer() {
+import React from "react"
+import { Footer } from "flowbite-react"
+export default function Footer2() {
     return (
 <Footer container={true}>
   <Footer.Copyright

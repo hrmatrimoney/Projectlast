@@ -1,5 +1,6 @@
-
-export default function Rating(){
+import React from "react"
+import { Rating } from "flowbite-react"
+export default function Rating2(){
     return(
 <Rating>
   <Rating.Star />

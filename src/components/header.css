@@ -15,6 +15,10 @@
     text-decoration: none;
     font-size: 17px;
   }
+  .fixed a:hover{
+    background-color: #1945c8;
+    color: black;
+  }
   
   .viewmenu{
     -webkit-font-smoothing: antialiased;
@@ -29,7 +33,7 @@
     font-weight: 1000;
     padding-bottom: 8px;
     text-transform: uppercase;
-    color: #ddaa44;
+    color: #fbf6ee;
     border-color: #ddaa44;
     
 }

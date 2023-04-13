@@ -1,24 +1,17 @@
 
 
 .mainclass{
+   
     -webkit-text-size-adjust: 100%;
     --parent-width: 1440px;
-    list-style: none;
-    font-weight: 400;
-    font-size: 100%;
-    font-family: inherit;
-    font-style: normal!important;
-    position: relative;
-    line-height: 1.45;
-    padding: 65px 0;
-    color: #fff;
+    list-style: none; 
+    line-height: 1.35;
     text-align: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    background-color: transparent;
     background-position: 50% 50%;
     background-image: url("https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?cs=srgb&dl=pexels-pixabay-262978.jpg&fm=jpg");
-
+    background-repeat: no-repeat;
+    background-attachment:scroll;
 }
 
 .fname{
@@ -26,7 +19,7 @@
     --parent-width: 1440px;
     list-style: none;
     text-align: center;
-    color: #080909;
+    color: #f8f5ee;
     font-style: normal;
     font-weight: inherit;
     font-size: 60px;
@@ -35,7 +28,7 @@
     cursor: text;
     word-wrap: break-word;
     line-height: 1.2;
-    font-family: montserrat, helvetica, sans-serif;
+    font-family: jokerman;
     outline: 0px;
 
 }
@@ -48,9 +41,23 @@
     text-align: center;
     -webkit-tap-highlight-color: transparent;
    
-    font-weight: 800;
+    font-weight: 600;
     padding-bottom: 10px;
-    color: #0d0e0e;
+    color: #f4f0ea;
+   
+}
+
+.tname{
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    font-family: "Hind",sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+   
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #221e17;
    
 }
 .fbutton{
