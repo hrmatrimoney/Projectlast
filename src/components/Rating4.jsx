@@ -1,6 +1,6 @@
 import React from "react"
 import { Rating } from "flowbite-react"
-export default function Rating2(){
+export default function Rating4(){
     return(
 <Rating>
   <Rating.Star />
@@ -9,7 +9,7 @@ export default function Rating2(){
   <Rating.Star />
   <Rating.Star filled={false} />
   <p className="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">
-    4.95 out of 5
+    4 out of 5
   </p>
 </Rating>
     )

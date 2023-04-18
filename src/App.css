@@ -23,10 +23,9 @@
     font-style: normal;
     font-weight: inherit;
     font-size: 60px;
-    -webkit-user-modify: read-write;
     -webkit-font-smoothing: antialiased;
     cursor: text;
-    word-wrap: break-word;
+    
     line-height: 1.2;
     font-family: jokerman;
     outline: 0px;
@@ -101,12 +100,10 @@
 
 .viewall{
     -webkit-font-smoothing: antialiased;
-    text-size-adjust: 100%;
+    
     font-family: "Hind",sans-serif;
     line-height: 1.5em;
     text-align: center;
-    -webkit-tap-highlight-color: transparent;
-    text-decoration: none;
     cursor: pointer;
     border-bottom: 1px solid;
     font-weight: 800;
@@ -141,7 +138,7 @@
     text-align: center;
     -webkit-tap-highlight-color: transparent;
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 1000;
     padding-bottom: 8px;
     text-transform: uppercase;
     color:  #ddaa44;

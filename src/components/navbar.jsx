@@ -8,7 +8,7 @@ const callouts = [
     }}>Breakfast</h5>
     </p>,
     imageSrc: 'https://cdn.pixabay.com/photo/2017/01/12/14/22/coffee-1974841__340.jpg',
-     href: '#',
+     href: 'http://www.tasty-indian-recipes.com/indian-breakfast/',
   },
   {
    
@@ -19,7 +19,7 @@ const callouts = [
     }}>Lunch</h5>
     </p>,
     imageSrc: 'https://cdn.pixabay.com/photo/2018/10/14/18/29/meatloaf-3747129__340.jpg',
-     href: '#',
+     href: 'https://www.indianhealthyrecipes.com/recipes/lunch-box/',
   },{
   
     description:<p className="discription">
@@ -29,11 +29,10 @@ const callouts = [
     }}>Dinner</h5>
     </p>,
     imageSrc: 'https://cdn.pixabay.com/photo/2016/06/03/14/31/dinner-1433494__340.jpg',
-     href: '#',
+     href: 'https://www.indianhealthyrecipes.com/indian-dinner-recipes/',
   },
 
     {
-      name: '',
       description:<p className="discription">
       <h5 style={{
       textAlign:"center",
@@ -41,8 +40,7 @@ const callouts = [
     }}>Maha Shivratri Special</h5>
       </p>,
       imageSrc: 'https://media.istockphoto.com/id/514518588/photo/indian-fasting-food-recipes-mahashivratri-food-navratri-food-vrat-food.jpg?s=612x612&w=0&k=20&c=We5VDpeeRY8vIgDljvozDbZjL3RZXy94ikJkyX7C_A8=',
-      imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-      href: 'http://www.tasty-indian-recipes.com/articles/maha-shivratri-recipes/',
+       href: 'http://www.tasty-indian-recipes.com/articles/maha-shivratri-recipes/',
     },
     {
       name: '',
@@ -138,33 +136,23 @@ const callouts = [
         href: 'https://www.vegrecipesofindia.com/recipes/desserts-recipes/' ,
       },
   ]
-  
-  
-  export default function Navbar() {
+   export default function Navbar() {
     return (
-      <div className="bg-gray-100">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-            <h2 className="text-2xl font-bold text-gray-900">Our Collections</h2>
-  
-            <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+      <div className=" bg-gray-100  ">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
+          <div className="mx-auto max-w-3xl py-16 sm:py-24 lg:max-w-none lg:py-32  "> <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0 ">
               {callouts.map((callout) => (
-                <div key={callout.name} className="group relative">
-                  <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-70 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                <div key={callout.name} className="group relative scale-90 hover:scale-110 ease-in duration-500"> <h3 className="">
+                    <a href={callout.href}>
+                      <span className="absolute inset-0 mt-5 text-sm text-gray-500" />
+                      {callout.name}
+                      <p className=" text-base font-semibold text-gray-900 inset-0 mt-5 text-sm text-gray-500">{callout.description}</p>
+                  <div className="viewall relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-90 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1 ">
                     <img
                       src={callout.imageSrc}
                       alt={callout.imageAlt}
-                      className="h-full w-full object-cover object-center"
-                    />
-                  </div>
-                  <h3 className="mt-6 text-sm text-gray-500">
-                    <a href={callout.href}>
-                      <span className="absolute inset-0" />
-                      {callout.name}
-                    </a>
-                  </h3>
-                  <p className="text-base font-semibold text-gray-900">{callout.description}</p>
-                </div>
+                      className="h-full w-full object-cover object-center " />
+                  </div> </a></h3></div>
               ))}
             </div>
           </div>

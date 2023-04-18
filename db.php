@@ -7,11 +7,10 @@
     <title>Food Hut</title>
   </head>
   <body>
-  
+  <a href="login_form.php">login_form</a>
   
     <div id="root">
      
     </div>
-     <script type="module" src="/src/main.jsx"></script>
-  </body>
+      </body>
 </html>
